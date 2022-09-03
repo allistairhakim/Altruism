@@ -27,6 +27,11 @@ h1, h2, h3, h4, h5, h6 {
   color:#fb9550;
 }
 
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1698,7 +1703,7 @@ section {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #eef0ef;
-} 
+}
 
 .member:hover {
   border-color: #fff;
